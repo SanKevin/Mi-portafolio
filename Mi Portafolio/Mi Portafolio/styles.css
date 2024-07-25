@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #eeeded;
+    background-color: #184877;
+}
+
+header {
+    background: #831117;
+    color: #1b0b0b;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff7f7;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fdc008;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#about p, #education p, #contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#education h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #134374;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.custom-image {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #about img {
+        margin-bottom: 20px;
+    }
+}
